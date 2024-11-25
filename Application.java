@@ -26,4 +26,23 @@ public class MyClass {
         // Accessing private members through a public method
         myObject.accessPrivateMembers();
     }
+	#feature202 changes by Ethan for Registration Module in oct 2024
+	 public static double calculateRectangleArea(double length, double width) {
+        double area = length * width;
+        return area;
+    }
+
+    public static void main(String[] args) {
+        // Example of using the method
+        double length = 5.0;
+        double width = 3.0;
+
+        // Calling the method
+        double result = calculateRectangleArea(length, width);
+
+        // Displaying the result
+        System.out.println("The area of the rectangle with length " + length + " and width " + width + " is: " + result);
+    }
+}
+#end of feature202 changes
 }
