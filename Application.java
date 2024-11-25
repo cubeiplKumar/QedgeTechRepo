@@ -26,6 +26,7 @@ public class MyClass {
         // Accessing private members through a public method
         myObject.accessPrivateMembers();
     }
+
 	#feature202 changes by Ethan for Registration Module in oct 2024
 	 public static double calculateRectangleArea(double length, double width) {
         double area = length * width;
@@ -45,4 +46,24 @@ public class MyClass {
     }
 }
 #end of feature202 changes
+
+	#feature201 changes by Vivek for PaymentGatewayModule on Oct2024
+	 public static int square(int num) {
+
+    // return statement
+    return num * num;
+  }
+
+  public static void main(String[] args) {
+    int result;
+
+    // call the method
+    // store returned value to result
+    result = square(10);
+
+    System.out.println("Squared value of 10 is: " + result);
+  }
+}
+#end of feature201 changes
+
 }
